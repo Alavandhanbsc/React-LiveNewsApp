@@ -1,34 +1,48 @@
 *{
     padding: 0px;
     margin: 0px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .news{
     padding: 0px;
-    background-color: thistle;
+    background-color:white;
     margin: 0px;
-    text-align: center;
-    
+    text-align: center;  
 }
 
 .news h1{
-    background-color: rgb(136, 168, 72);
+    background-color: rgb(0, 128, 255);
+    color: white;
     padding: 30px;
-    border-bottom: 3px solid black;
+    box-shadow: 2px 2px 10px black;
     text-align: center;
+    position: sticky;
+    top: 0px;
+
+}
+.newscatogoryheading{
+    text-align: left;
+    padding: 20px;
+    background-color: white;
+    width: 100%;
+    position: fixed;
 }
 
 
 .newscontent {
-    background-color:antiquewhite;
+    background-color:white;
     width: 22%;
-    height: 30%;
     padding: 20px;
-    border: black solid 2px;
     border-radius: 5px;
-    margin:30px;
+    margin:40px;
+    margin-top:100px;
     display: inline-block;
-    box-shadow: 10px 10px 10px black;
+    box-shadow: 2px 2px 10px black;
+   
+}
+.newscontent a{
+    cursor: pointer;
 }
 
 
@@ -36,7 +50,32 @@
 
 
 .newscontent img{
+    margin-top: 10px;
+    margin-bottom: 10px;
     width: 100%;
     border-radius: 5px;
     
+}
+
+.newscontent p{
+margin-bottom: 20px;
+}
+
+#catogory{
+    color: rgb(212, 255, 0);
+    border: none;
+    outline: none;
+    font-size: 18px;
+    border-bottom: 3px solid rgb(212, 255, 0);
+    font-weight: 700;
+    background-color: transparent;
+    padding: 10px;
+    padding-bottom: 2px;
+    position: absolute;
+    left: 20px;
+    cursor: pointer;
+}
+#catogory option {
+    color: black;
+    cursor: pointer;
 }
